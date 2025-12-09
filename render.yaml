@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: discord-verification
+    env: python
+    region: virginia  # or oregon, frankfurt, etc.
+    buildCommand: |
+      pip install -r requirements.txt
+    startCommand: |
+      python run.py
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: DISCORD_GUILD_ID
+        sync: false
+      - key: VERIFIED_ROLE_ID
+        sync: false
+      - key: DISCORD_WEBHOOK_URL
+        sync: false
+      - key: DISCORD_LOGS_WEBHOOK
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: DATABASE_NAME
+        sync: false
+      - key: SECRET_KEY
+        sync: false
+      - key: FLASK_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: IPINFO_TOKEN
+        sync: false
+      - key: VPN_API_KEY
+        sync: false
+      - key: WEBSITE_URL
+        value: https://discord-verification.onrender.com

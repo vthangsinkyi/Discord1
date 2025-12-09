@@ -6,6 +6,7 @@ py-cord==2.4.1
 Flask==2.3.3
 Flask-CORS==4.0.0
 flask-socketio==5.3.4
+gunicorn==21.2.0
 
 # Database
 pymongo==4.4.1
