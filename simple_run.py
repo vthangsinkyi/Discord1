@@ -57,9 +57,9 @@ def home():
             <p>This is a simplified version to get you started.</p>
             <p>Access the full system at:</p>
             <ul style="text-align: left;">
-                <li><strong>Website:</strong> http://localhost:5000</li>
-                <li><strong>Admin:</strong> http://localhost:5000/admin</li>
-                <li><strong>Verify:</strong> http://localhost:5000/verify</li>
+                <li><strong>Website:</strong> https://koalahub.onrender.com</li>
+                <li><strong>Admin:</strong> https://koalahub.onrender.com/admin</li>
+                <li><strong>Verify:</strong> https://koalahub.onrender.com/verify</li>
             </ul>
         </div>
     </body>

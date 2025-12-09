@@ -292,7 +292,7 @@ class SimpleBot(commands.Bot):
             if message.author.guild_permissions.administrator:
                 embed = discord.Embed(
                     title="🔐 Verification System Setup",
-                    description="**Verification is now active!**\n\nVisit: http://localhost:5000/verify\n\n**Features:**\n• VPN/Proxy detection\n• IP banning\n• Admin dashboard",
+                    description="**Verification is now active!**",
                     color=discord.Color.green()
                 )
                 await message.channel.send(embed=embed)
@@ -317,9 +317,9 @@ def run_bot():
 if __name__ == "__main__":
     print("🚀 Starting Discord Verification System...")
     print("=" * 50)
-    print("🌐 Website: http://localhost:5000")
-    print("🔐 Verify: http://localhost:5000/verify")
-    print("👑 Admin: http://localhost:5000/admin/login")
+    print("🌐 Website: https://koalahub.onrender.com")
+    print("🔐 Verify: https://koalahub.onrender.com")
+    print("👑 Admin: https://koalahub.onrender.com/admin/login")
     print("=" * 50)
     
     # Check .env file

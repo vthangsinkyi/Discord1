@@ -39,4 +39,4 @@ class Config:
     
     # Website URL (Set by Render)
     WEBSITE_URL = os.getenv('WEBSITE_URL', '')
-    VERIFY_URL = f"{WEBSITE_URL}/verify" if WEBSITE_URL else "http://localhost:5000/verify"
+    VERIFY_URL = f"{WEBSITE_URL}/verify" if WEBSITE_URL else "https://koalahub.onrender.com/verify"

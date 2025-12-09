@@ -474,9 +474,9 @@ def admin_logout():
 # ============= START EVERYTHING =============
 if __name__ == "__main__":
     print("🚀 Starting Discord Verification System...")
-    print("🌐 Website: http://localhost:5000")
-    print("👑 Admin: http://localhost:5000/admin/login")
-    print("🔐 Verify: http://localhost:5000/verify")
+    print("🌐 Website: https://koalahub.onrender.com")
+    print("👑 Admin: https://koalahub.onrender.com/admin/login")
+    print("🔐 Verify: https://koalahub.onrender.com/verify")
     print("=" * 50)
     
     # Start bot in separate thread
